@@ -5,8 +5,8 @@
 from cellulariot import cellulariot
 import time
 
-your_ip = "xx.xx.xx.xx" # change with your ip
-your_port = "xxxx" # change with your port
+your_ip = "64.121.121.163" # change with your ip
+your_port = "22" # change with your port
 
 #node = cellulariot.CellularIoT() # for Sixfab CellularIoT HAT
 node = cellulariot.CellularIoTApp() # for Sixfab CellularIoT App. Shield
