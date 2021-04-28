@@ -15,6 +15,8 @@ node.enable()
 time.sleep(1)
 node.powerUp()
 
+node.setMode(node.CATM1_MODE)
+
 node.sendATComm("ATE1","OK\r\n")
 
 node.sendSMS(6317591433,"Test")
