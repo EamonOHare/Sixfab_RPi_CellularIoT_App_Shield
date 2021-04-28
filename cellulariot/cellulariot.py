@@ -398,7 +398,7 @@ class CellularIoT:
 	
 	# Function for sending SMS
 	def sendSMS(self, number, text):
-		self.sendATComm("AT+CMGF=1","B") # text mode	
+		self.sendATComm("AT+CMGF=1","OK\r\n") # text mode	
 		delay(500)
 		
 		self.compose = "AT+CMGS=\""
