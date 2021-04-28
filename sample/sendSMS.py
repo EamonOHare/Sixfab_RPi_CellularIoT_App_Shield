@@ -15,7 +15,7 @@ node.enable()
 time.sleep(1)
 node.powerUp()
 
-node.setMode(node.GSM_MODE)
+node.setMode(node.AUTO_MODE)
 
 node.sendATComm("ATE1","OK\r\n")
 
