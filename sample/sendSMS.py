@@ -15,7 +15,7 @@ node.enable()
 time.sleep(1)
 node.powerUp()
 
-node.setMode(node.CATM1_MODE)
+node.setMode(node.GSM_ANY)
 
 node.sendATComm("ATE1","OK\r\n")
 
