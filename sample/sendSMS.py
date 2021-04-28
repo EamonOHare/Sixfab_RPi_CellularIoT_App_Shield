@@ -17,4 +17,4 @@ node.powerUp()
 
 node.sendATComm("ATE1","OK\r\n")
 
-node.sendSMS("xxxxxxxxxxxxx","hello world!")
+node.sendSMS(6317591433,"Test")
