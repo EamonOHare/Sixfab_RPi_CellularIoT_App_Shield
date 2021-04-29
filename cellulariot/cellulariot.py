@@ -214,7 +214,7 @@ class CellularIoT:
 					delay(100)
 				except Exception as e:
 					debug_print(e.Message)
-				debug_print(self.response)	
+				# debug_print(self.response)	
 			if(self.response.find(desired_response) != -1):
 				debug_print(self.response)
 				return self.response # returns the response of the command as string.
